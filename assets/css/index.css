@@ -1,0 +1,42 @@
+/* font-family: 'Anek Devanagari',
+sans-serif;
+font-family: 'Cabin',
+sans-serif;
+
+@font-face {
+    font-family: 'Overpass';
+} */
+
+
+html {
+    background-color: #2B2E4A;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #2B2E4A;
+    min-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(211, 214, 238);
+    padding: 10px;
+    height: 30px;
+}
+
+.contenido-navbar {
+    padding: 6px;
+    color: white;
+}
+
+.sub-contenedor {
+    padding: 16px;
+}
+
+.boton {
+    padding: 10px;
+}
